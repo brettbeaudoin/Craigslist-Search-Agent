@@ -23,7 +23,7 @@ itemStart = "<p class=\"row\">"
 itemEnd = "</div>"
 spanStart = "<p class=\"row\">"
 spanEnd = "</div>"
-url = "http://%s.craigslist.org/search/cta?srchType=T&minAsk=%d&maxAsk=%d&query=%s" % (region, minAsk, maxAsk, quote_plus(query))
+url = "http://%s.craigslist.org/search/?catAbb=sss&minAsk=%d&maxAsk=%d&query=%s" % (region, minAsk, maxAsk, quote_plus(query))
 replaceStrings = [("\n", " "), ("\t", " "), ("  ", " "), ("<p class=\"row\">", delimStart), ("</p>", delimEnd)]
 results = []
 
